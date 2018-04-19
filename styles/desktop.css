@@ -1,0 +1,71 @@
+media only screen and (min-width: 640px) {
+  #mobile-nav {
+    display: none;
+  }
+
+  #main-nav {
+    padding: .2em .2em .2em 2em;
+  }
+
+  #main-nav ul {
+    display: block;
+  }
+
+  #main-nav ul li {
+    display: inline;
+    border-bottom: none;
+  }
+
+  #main-nav ul li:hover a {
+    color: #29506D;
+  }
+
+}
+
+.gradient {
+	width: 100vh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+/* 
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+} */
+

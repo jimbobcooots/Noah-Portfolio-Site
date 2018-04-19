@@ -1,0 +1,74 @@
+@media only screen and (max-width: 640px) {
+  .hamburger {
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    width: 50px;
+  }
+  
+  .cross {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 60px;
+  }
+
+  #mobile-nav {
+    display: block;
+    width: 100vw;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  .nav-items {
+    border: none;
+    width: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .nav-items {
+    list-style-type: cjk-ideographic;
+    margin-top: -2em;
+    padding-left: 2em;
+  }
+
+  .icons {
+    font-size: 1.5em;
+    margin-right: .6em;
+    margin-top: .3em;
+    float: right;
+  }
+  
+  .fa-linkedin {
+    background: none;
+    border-right: 1px solid white;
+    color: white;
+    cursor: pointer;
+    padding-right: .6em;
+  }
+  
+  .fa-github {
+    background: none;
+    color: white;
+    cursor: pointer;
+    padding-left: .2em;
+    padding-right: .1em;
+  }
+
+  nav.bw > button {
+    color: rgb(48, 41, 38);
+  }
+
+  /* nav.bw .nav-items > ul{
+    list-style-type: none;
+  } */
+
+  nav.bw .nav-items > li a {
+    color: rgb(48, 41, 38);
+  }
+}
