@@ -7,12 +7,13 @@
     font-size: 30px;
     width: 50px;
   }
-  
+
   .cross {
     background: none;
     border: none;
     color: white;
-    font-size: 60px;
+    font-size: 75px;
+    margin: -25px 2px 2px 7px;
   }
 
   #mobile-nav {
@@ -33,31 +34,12 @@
 
   .nav-items {
     list-style-type: cjk-ideographic;
-    margin-top: -2em;
-    padding-left: 2em;
+    margin-top: -3em;
+    padding-left: 2.5em;
   }
 
-  .icons {
-    font-size: 1.5em;
-    margin-right: .6em;
-    margin-top: .3em;
-    float: right;
-  }
-  
-  .fa-linkedin {
-    background: none;
-    border-right: 1px solid white;
-    color: white;
-    cursor: pointer;
-    padding-right: .6em;
-  }
-  
-  .fa-github {
-    background: none;
-    color: white;
-    cursor: pointer;
-    padding-left: .2em;
-    padding-right: .1em;
+  .nav-items li {
+    line-height: 2.3;
   }
 
   nav.bw > button {

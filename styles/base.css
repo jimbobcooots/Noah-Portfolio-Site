@@ -2,11 +2,19 @@ img {
   max-width: 100%;
 }
 
+.icons {
+  font-size: 1.5em;
+  margin-right: .6em;
+  margin-top: .3em;
+  float: right;
+}
+
 body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
 }
+
 
 main {
   margin: 0 20px;
@@ -76,6 +84,12 @@ input:invalid, textarea:invalid {
 
 input:valid, textarea:valid {
   border-color: #89CB8E;
+}
+
+/* PAGE STYLES
+===============================================*/
+.bw {
+  font-family: 'News Cycle', sans-serif;
 }
 
 
