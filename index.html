@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <title>Noah Alexander's Portfolio Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|News+Cycle" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css">
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="vendor/styles/icons.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/mobile.css">
-    <link rel="stylesheet" href="styles/desktop.css">
-    <link rel="stylesheet" href="styles/modules.css"> 
+    <link rel="stylesheet" href="public/styles/base.css">
+    <link rel="stylesheet" href="public/styles/layout.css">
+    <link rel="stylesheet" href="public/styles/mobile.css">
+    <link rel="stylesheet" href="public/styles/desktop.css">
+    <link rel="stylesheet" href="public/styles/background-mobile.css">
+    <!-- <link rel="stylesheet" href="public/styles/background-desktop.css"> -->
+    <link rel="stylesheet" href="public/styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&amp;s=200">
   </head>
 
   <body>
-    <header>
-      <div class="icons">
-          <a href="https://www.linkedin.com/in/noah-alexander-ba59b0a2/" target="_blank" class="fa fa-linkedin"></a>
-          <a href="https://github.com/noahmvf" target="_blank" class="fa fa-github"></a>
-      </div>
-
+    <main id="homepage">
       <nav id="main-nav">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/noah-alexander-ba59b0a2/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/noahmvf" target="_blank" class="fa fa-github"></a>
+        </div>
         <ul>
           <li class="tab" data-content="articles"><a href="#">Home</a></li>
           <li class="tab" data-content="about"></li><a href="#">Works</a></li>
@@ -32,8 +34,12 @@
           <li class="tab" data-content="about"><a href="#">Contact</a></li>
         </ul>
       </nav>
-         
-      <nav id="mobile-nav" class="bw">
+
+      <nav id="mobile-nav">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/noah-alexander-ba59b0a2/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/noahmvf" target="_blank" class="fa fa-github"></a>
+        </div>
         <button class="hamburger">&#9776;</button>
         <button class="cross">&#735;</button>
         <ul class="nav-items">
@@ -43,90 +49,143 @@
           <li data-content="about"><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </header>
 
-    <body>
-      <main>
-        <article id="headline" class="bw">
-          <h1>Noah Alexander</h1>
-            <h2>Web Developer &amp; Designer</h2>
+      <article id="headline-container">
+        <div id="button-container">
+          <button type="button" name="button" id="change-color">Change Background</button>
+            <select class="button-list">
+              <option value="Animals">Animals</option>
+              <option value="Gradient">Gradient</option>
+              <option value="Silly Puddy">Silly Puddy (coming soon!)</option>
+              <option value="Lichtenstein">Lichtenstein (coming soon!)</option>
+              <option value="Marsupials & Friends">Marsupials & Friends (coming soon!)</option>
+              <option value="Marsupials & Friends">Bob Ross (coming soon!)</option>
+            </select>
+        </div>
+        <img src="assets/backgrounds/gradient-headline.png" class="gradient-headline">
+
+      </article>
+    </main>
+
+    <section id="gallery-main">
+      <h2 id="my-works">My Works</h2>
+      <article name="clientDesigns">
+        <div id="clientDesigns" class="gallery animated-thumbs">
+          <a href="assets/Client Designs/Gift Fuse (Upwork).jpg">
+            <img src="assets/Client Designs/Gift Fuse (Upwork).jpg">
+          </a>
+          <a href="assets/Client Designs/Pisces Record Brand.jpg">
+            <img src="assets/Client Designs/Pisces Record Brand.jpg">
+          </a>
+          <a href="assets/Client Designs/Quill and Hammock (Upwork).png">
+            <img src="assets/Client Designs/Quill and Hammock (Upwork).png">
+          </a>
+          <a href="assets/Client Designs/sabor (first prints).jpg">
+            <img src="assets/Client Designs/sabor (first prints).jpg">
+          </a>
+          <a href="assets/Client Designs/sabor.jpg">
+            <img src="assets/Client Designs/sabor.jpg">
+          </a>
+          <a href="assets/Client Designs/Sentinel with dog.jpg">
+            <img src="assets/Client Designs/Sentinel with dog.jpg">
+          </a>
+          <a href="assets/Client Designs/sabor.jpg">
+            <img src="assets/Client Designs/sabor.jpg">
+          </a>
+        </div>
+        <h4>Client Designs</h4>
+      </article>
+
+      <article name="clothingDesigns">
+          <div id="clothingDesigns" class="gallery">
+            <a href="assets/Clothing Designs/Hyena Women's.jpg">
+              <img src="assets/Clothing Designs/Hyena Clickable.jpg">
+            </a>
+            <a href="assets/Clothing Designs/Cavaliers II.jpg">
+              <img src="assets/Clothing Designs/Cavaliers II.jpg">
+            </a>
+            <a href="assets/Clothing Designs/duck yeah shirt.jpg">
+              <img src="assets/Clothing Designs/duck yeah shirt.jpg">
+            </a>
+            <a href="assets/Clothing Designs/Ice Cave 2.jpg">
+              <img src="assets/Clothing Designs/Ice Cave 2.jpg">
+            </a>
+            <a href="assets/Clothing Designs/SpaceShip.jpg">
+              <img src="assets/Clothing Designs/SpaceShip.jpg">
+            </a>
+          </div>
+          <h4>Clothing Designs</h4>
+      </article>
+
+      <article name="businessCards" class="bCards">
+          <div id="businessCards" class="gallery">
+            <a href="assets/business-cards/colorful card (front).jpg">
+              <img src="assets/business-cards/colorful card (front).jpg">
+            </a>
+            <a href="assets/Clothing Designs/duck yeah shirt.jpg">
+              <img src="assets/Clothing Designs/duck yeah shirt.jpg">
+            </a>
+            <a href="assets/Clothing Designs/Hyena Women's.jpg">
+              <img src="assets/Clothing Designs/Hyena Women's.jpg">
+            </a>
+            <a href="assets/Clothing Designs/Ice Cave 2.jpg">
+              <img src="assets/Clothing Designs/Ice Cave 2.jpg">
+            </a>
+            <a href="assets/Clothing Designs/SpaceShip.jpg">
+              <img src="assets/Clothing Designs/SpaceShip.jpg">
+            </a>
+          </div>
+          <h4>Business Cards</h4>
         </article>
-        <!-- I want to be able to take these and instead make new image instances instead of copying HTML-->
-        <article class="client-designs">
-        <!-- Container for the image gallery -->
-          <div class="container">
 
-        <!-- Full-width images with number text -->
-              <div class="mySlides">
-                <div class="numbertext">1 / 6</div>
-                  <img src="http://via.placeholder.com/350x150" style="width:100%" class=>
-              </div>
-            
-              <div class="mySlides">
-                <div class="numbertext">2 / 6</div>
-                  <img src="http://via.placeholder.com/350x150" style="width:100%" class=>
-              </div>
-            
-              <div class="mySlides">
-                <div class="numbertext">3 / 6</div>
-                  <img src="http://via.placeholder.com/350x150" style="width:100%" class=>
-              </div>
-            
-              <div class="mySlides">
-                <div class="numbertext">4 / 6</div>
-                  <img src="http://via.placeholder.com/350x150" style="width:100%" class=>
-              </div>
-            
-              <div class="mySlides">
-                <div class="numbertext">5 / 6</div>
-                  <img src="http://via.placeholder.com/350x150" style="width:100%" class=>
-              </div>
-
-              <div class="mySlides">
-                <div class="numbertext">6 / 6</div>
-                  <img src="http://via.placeholder.com/350x150" style="width:100%" class=>
-              </div>
-            
-              <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-              <!-- Image text -->
-              <div class="caption-container">
-                <p id="caption"></p>
-              </div>
-            
-              <!-- Thumbnail images -->
-              <div class="row">
-                <div class="column">
-                  <img class="demo cursor" src="http://via.placeholder.com" style="width:100%" onclick="currentSlide(1)" alt=>
-                </div>
-                <div class="column"> 
-                  <img class="demo cursor" src="http://via.placeholder.com" style="width:100%" onclick="currentSlide(2)" alt=>
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="http://via.placeholder.com" style="width:100%" onclick="currentSlide(3)" alt=>
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="http://via.placeholder.com" style="width:100%" onclick="currentSlide(4)" alt=>
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="http://via.placeholder.com" style="width:100%" onclick="currentSlide(5)" alt=>
-                </div> 
-                <div class="column">
-                  <img class="demo cursor" src="http://via.placeholder.com" style="width:100%" onclick="currentSlide(6)" alt= class=>
-                </div>
-              </div>
+        <article name="Random Artwork">
+            <div id="randomArtwork" class="gallery">
+              <a href="assets/Random Artwork/Columbus's Landing.jpg">
+                <img src="assets/Random Artwork/Columbus's Landing clickable.jpg">
+              </a>
+              <a href="assets/Random Artwork/Passerine master logo Dos.jpg">
+                <img src="assets/Random Artwork/Passerine master logo Dos.jpg">
+              </a>
+              <a href="assets/Random Artwork/LinkedIn Reflection.jpg">
+                <img src="assets/Random Artwork/LinkedIn Reflection.jpg">
+              </a>
+              <a href="assets/Random Artwork/Lupus Canis Felix Natalis.jpg">
+                <img src="assets/Random Artwork/Lupus Canis Felix Natalis.jpg">
+              </a>
+              <a href="assets/Random Artwork/vacashin clothing.jpg">
+                <img src="assets/Random Artwork/vacashin clothing.jpg">
+              </a>
             </div>
+            <h4>Random Artwork</h4>
         </article>
-      </main>
+      </section>
+
+      <section id="myStory">
+        <h2>My Story</h2>
+        <article>
+          <div class="headshot-container">
+            <img src="/Volumes/Noah's Macbook Backup/noah-site/assets/headshot.jpg" id="headshot">
+          </div>
+          <div class="story">
+            <p>I'm Noah, I'm 24 years old, and my favorite thing to do is to make things that people enjoy. By day I am a real estate property manager and market analyst. By night I am a creator of websites, apps, and designs. I believe digital innovation can benefit the community as a tool as well as an artform, and these are how I would like to contribute to making where we live a better place.</p>
+          </div>
+        </article>
+      </section>
       <footer>
         &copy; 2018 Noah Alexander | Site &amp; Design Portfolio |
       </footer>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
-      <script src="scripts/navView.js"></script>
-      <script src="scripts/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <script src="js/lightgallery.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+    <script src="public/scripts/navView.js"></script>
+    <script src="public/scripts/gallery.js"></script>
+    <script src="public/scripts/background.js"></script>
   </body>
 </html>

@@ -1,0 +1,32 @@
+{
+  "name": "noah-site",
+  "version": "1.0.0",
+  "description": "A portfolio of my websites and Photoshop/Illustrator designs",
+  "main": "index.js",
+  "dependencies": {
+    "express-photo-gallery": "^1.0.9",
+    "lg-autoplay": "^1.0.4",
+    "lg-fullscreen": "^1.0.1",
+    "lg-hash": "^1.0.4",
+    "lg-pager": "^1.0.2",
+    "lg-share": "^1.1.0",
+    "lg-thumbnail": "^1.1.0",
+    "lg-video": "^1.2.1",
+    "lg-zoom": "^1.1.0",
+    "lightgallery": "^1.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahmvf/Noah-Portfolio-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahmvf/Noah-Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/noahmvf/Noah-Portfolio-Site#readme"
+}
