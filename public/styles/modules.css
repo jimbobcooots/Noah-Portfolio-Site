@@ -1,6 +1,5 @@
-p {
-  font-family: 'Raleway', sans-serif;
-  text-shadow: 1px 1px #3b3b3b;
+* {
+  outline: none;
 }
 /*Color Themes*/
 .whiteFontBorder {
@@ -14,73 +13,55 @@ p {
   color: #3b3b3b;
 }
 
+.blackNav {
+  background-color: white;
+  border-color: #3b3b3b;
+  color: #3b3b3b;
+}
+
 .fa-linkedin {
   background: none;
-  border-right: 1px dotted;
-  /* color: #313131; */
-  /* color: white; */
-  cursor: pointer;
-  padding-right: .6em;
+  border-right: 1px solid;
+  padding-right: .5em;
 }
 
 .fa-github {
   background: none;
-  /* color: #313131; */
-  /* color: white; */
-  cursor: pointer;
   padding-left: .2em;
-  padding-right: .1em;
+  padding-right: .2em;
 }
 
 #mobile-nav > ul > li {
   font-family: 'Raleway', sans-serif;
 }
 
-#button-container {
+.hamburger {
   background: none;
-  margin: auto;
-  padding: auto;
-  position: relative;
-  text-align: center;
-  top: 40.5em;
-  width: 9em;
+  cursor: pointer;
+  border: none;
+  font-size: 30px;
+  width: 50px;
 }
 
-#button-container button {
-  background: white;
-  display: inline-block;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  padding: .7em;
-  width: 11em;
-}
-
-#change-color {
-  border: 1px solid;
+.cross {
   background: none;
-}
-
-.button-list {
-  background: transparent;
-  border: 1px solid;
-  height: 1.8em;
-  margin: auto;
-  padding-left: 10px;
-  /* -moz-appearance: none; remove glossy effect
-  -webkit-appearance: none;
-  appearance: none; */
-  width: 10em;
+  border: none;
+  /* color: white; */
+  font-size: 75px;
+  margin: -25px 2px 2px 7px;
 }
 
 /*Gallery*/
+#gallery-main {
+  margin: -10px;
+}
 #gallery-main h4 { /*Headers for each gallery*/
   background-color: white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid #3b3b3b;
-  border-left: .1px solid #3b3b3b;
-  border-right: .1px solid #3b3b3b;
+  border-bottom: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
   bottom: .6em;
-  box-shadow: 0px 3px 6px 2px rgb(232, 232, 232);
+  box-shadow: 0px 1px 4px 1px rgb(232, 232, 232);
   color: #3b3b3b;
   display: inline-block;
   font-family: 'Raleway', sans-serif;
@@ -89,7 +70,53 @@ p {
   padding-top: .5em;
   position: relative;
   text-align: center;
-  /* text-shadow: -1px 1px #535353; */
-  width: 20.95em;
+  text-shadow: -1px 1px #e9e9e9;
+  width: 21em;
   height: 2em;
+}
+
+#gallery-main article {
+  width: 22em;
+  height: auto;
+  margin: 0 auto;
+}
+
+#gallery-main article:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.site-card:hover {
+  border: 1px solid #3b3b3b;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.site-card p {
+  color: #3b3b3b;
+}
+
+#contact-button {
+  border: 1px solid #3b3b3b;
+  cursor: pointer;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+#contact-button:hover {
+  box-shadow: 0px 3px 0px 2px rgb(80, 80, 80);-webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#contact-button a {
+  background: none;
+  color: #3b3b3b;
+  font-size: 24px;
+  padding: 20px;
 }

@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="public/styles/mobile.css">
     <link rel="stylesheet" href="public/styles/desktop.css">
     <link rel="stylesheet" href="public/styles/background-mobile.css">
+    <link rel="stylesheet" href="public/styles/background-desktop.css">
+    <!-- <link rel="stylesheet" href="public/contact/contact.css"> -->
     <!-- <link rel="stylesheet" href="public/styles/background-desktop.css"> -->
     <link rel="stylesheet" href="public/styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&amp;s=200">
@@ -26,13 +28,15 @@
             <a href="https://www.linkedin.com/in/noah-alexander-ba59b0a2/" target="_blank" class="fa fa-linkedin"></a>
             <a href="https://github.com/noahmvf" target="_blank" class="fa fa-github"></a>
         </div>
-        <ul>
-          <li class="tab" data-content="articles"><a href="#">Home</a></li>
-          <li class="tab" data-content="about"></li><a href="#">Works</a></li>
-          <li><img src="http://via.placeholder.com/50x50"> </li>
-          <li class="tab" data-content="about"><a href="#">My Story</a></li>
-          <li class="tab" data-content="about"><a href="#">Contact</a></li>
-        </ul>
+        <div class="nav-items-desktop-container">
+          <ul class="nav-items-desktop">
+              <li ><a href="#">Home</a></li>
+              <li ><a href="#">Designs</a></li>
+              <li ><a href="#">Websites</a></li>
+              <li ><a href="#">My Story</a></li>
+              <li ><a href="mailto:noahmvf@gmail.com">Contact</a></li>
+          </ul>
+        </div>
       </nav>
 
       <nav id="mobile-nav">
@@ -41,12 +45,13 @@
             <a href="https://github.com/noahmvf" target="_blank" class="fa fa-github"></a>
         </div>
         <button class="hamburger">&#9776;</button>
-        <button class="cross">&#735;</button>
+        <!-- <button class="cross">&#735;</button> -->
         <ul class="nav-items">
-          <li data-content="articles"><a href="#">Home</a></li>
-          <li data-content="about"><a href="#">Works</a></li>
-          <li data-content="about"><a href="#">My Story</a></li>
-          <li data-content="about"><a href="#">Contact</a></li>
+          <li ><a href="#">Home</a></li>
+          <li ><a href="#">Designs</a></li>
+          <li ><a href="#">Websites</a></li>
+          <li ><a href="#">My Story</a></li>
+          <li ><a href="mailto:noahmvf@gmail.com">Contact</a></li>
         </ul>
       </nav>
 
@@ -62,13 +67,14 @@
               <option value="Marsupials & Friends">Bob Ross (coming soon!)</option>
             </select>
         </div>
-        <img src="assets/backgrounds/gradient-headline.png" class="gradient-headline">
-
+        <div class="gradient-container">
+          <img src="assets/backgrounds/gradient-headline.png" class="gradient-headline">
+        </div>
       </article>
     </main>
 
     <section id="gallery-main">
-      <h2 id="my-works">My Works</h2>
+      <h2 id="my-works">Designs</h2>
       <article name="clientDesigns">
         <div id="clientDesigns" class="gallery animated-thumbs">
           <a href="assets/Client Designs/Gift Fuse (Upwork).jpg">
@@ -92,8 +98,8 @@
           <a href="assets/Client Designs/sabor.jpg">
             <img src="assets/Client Designs/sabor.jpg">
           </a>
+          <h4>Client Designs</h4>
         </div>
-        <h4>Client Designs</h4>
       </article>
 
       <article name="clothingDesigns">
@@ -113,8 +119,8 @@
             <a href="assets/Clothing Designs/SpaceShip.jpg">
               <img src="assets/Clothing Designs/SpaceShip.jpg">
             </a>
+            <h4>Clothing Designs</h4>
           </div>
-          <h4>Clothing Designs</h4>
       </article>
 
       <article name="businessCards" class="bCards">
@@ -134,8 +140,8 @@
             <a href="assets/Clothing Designs/SpaceShip.jpg">
               <img src="assets/Clothing Designs/SpaceShip.jpg">
             </a>
+            <h4>Business Cards</h4>
           </div>
-          <h4>Business Cards</h4>
         </article>
 
         <article name="Random Artwork">
@@ -155,22 +161,56 @@
               <a href="assets/Random Artwork/vacashin clothing.jpg">
                 <img src="assets/Random Artwork/vacashin clothing.jpg">
               </a>
+              <h4>Random Artwork</h4>
             </div>
-            <h4>Random Artwork</h4>
         </article>
-      </section>
+    </section>
+    
+    <section id="websites">
+      <h2>Websites</h2>
+      <div class="site-card">
+        <a href="https://apfly-map-up.herokuapp.com/">
+          <img src="assets/MapUp.png">
+          <!-- <h3>MapUp</h3> -->
+          <p> An app to enhance the search experience of the Meetup app by adding an interactive map to provide the user with a visual representation of the location of technology Meetups. It provides a map interface to find Meetups based on location.
 
-      <section id="myStory">
-        <h2>My Story</h2>
-        <article>
-          <div class="headshot-container">
-            <img src="/Volumes/Noah's Macbook Backup/noah-site/assets/headshot.jpg" id="headshot">
-          </div>
-          <div class="story">
-            <p>I'm Noah, I'm 24 years old, and my favorite thing to do is to make things that people enjoy. By day I am a real estate property manager and market analyst. By night I am a creator of websites, apps, and designs. I believe digital innovation can benefit the community as a tool as well as an artform, and these are how I would like to contribute to making where we live a better place.</p>
-          </div>
-        </article>
-      </section>
+          This app utilizes: Google Maps API, Geocode API, and Meetups API
+          
+          Languages: JavaScript, jQuery, AJAX, SQL (storage of API data), HTML, CSS
+          </p>
+        </a>
+      </div>
+      <div class="site-card">
+          <a href="https://noahmvf.github.io/ResumeGenerator/generator.html">
+            <img src="assets/Resume Hackers.png">
+            <!-- <h3>Resume Hackers</h3> -->
+            <p> Desktop app that allows you to create a personal, customized resume that is pre-formatted elegantly for the user. provides an interface to create a customized resume.
+  
+            Languages: JavaScript,jQuery, HTML, CSS
+            </p>
+          </a>
+        </div>
+    </section>
+
+    <section id="my-story">
+      <h2>My Story</h2>
+      <article>
+        <div class="headshot-container">
+          <img src="assets/headshot.jpg" id="headshot">
+        </div>
+        <div class="story">
+          <p>I'm Noah, I'm 24 years old, and my favorite thing to do is to make things that people enjoy. By day I am a real estate property manager and market analyst. By night I am a creator of websites, apps, and designs. I believe digital innovation can benefit the community as a tool as well as an artform, and these are how I would like to contribute to making where we live a better place.</p>
+        </div>
+      </article>
+    </section>
+
+    <table id="contact-button">
+        <tr>
+            <td>
+                <a href="mailto:noahmvf@gmail.com">Contact Me</a>
+            </td>
+        </tr>
+    </table>
       <footer>
         &copy; 2018 Noah Alexander | Site &amp; Design Portfolio |
       </footer>
@@ -184,8 +224,10 @@
     <!-- lightgallery plugins -->
     <script src="js/lg-thumbnail.min.js"></script>
     <script src="js/lg-fullscreen.min.js"></script>
+    <script src="public/scripts/page.js"></script>
     <script src="public/scripts/navView.js"></script>
     <script src="public/scripts/gallery.js"></script>
     <script src="public/scripts/background.js"></script>
+    <!-- <script src="public/contact/contact.js"></script> -->
   </body>
 </html>
