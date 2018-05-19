@@ -1,4 +1,4 @@
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 960px) {
   #mobile-nav {
     display: none;
   }
@@ -23,7 +23,7 @@
   }
 
   .nav-items-desktop li, a {
-    background: transparent;
+    background: none;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 1.3vw;
@@ -59,7 +59,7 @@
     padding: auto;
     position: relative;
     text-align: center;
-    top: 37.5em;
+    top: 90vh;
     width: 9em;
   }
 

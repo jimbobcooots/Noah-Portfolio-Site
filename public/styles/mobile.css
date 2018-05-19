@@ -1,4 +1,4 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 960px) {
   #mobile-nav {
     height: 50px;
     display: block;
@@ -51,7 +51,7 @@
   padding: auto;
   position: relative;
   text-align: center;
-  top: 42em;
+  top: 80vh;
   width: 9em;
 }
 

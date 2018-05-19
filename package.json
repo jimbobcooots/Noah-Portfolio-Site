@@ -13,7 +13,8 @@
     "lg-thumbnail": "^1.1.0",
     "lg-video": "^1.2.1",
     "lg-zoom": "^1.1.0",
-    "lightgallery": "^1.6.9"
+    "lightgallery": "^1.6.9",
+    "page": "^1.8.6"
   },
   "devDependencies": {},
   "scripts": {
