@@ -146,12 +146,9 @@
     float: right;
     margin-left: 10px;
   }
-  .button {
-    margin-left: 10px;
-  }
 
-  #contact-button {
-    position: relative;
+  #contact-button a {
+    color: red;
   }
 }
 
