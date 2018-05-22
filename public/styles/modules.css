@@ -50,51 +50,122 @@
   margin: -25px 2px 2px 7px;
 }
 
-/*Gallery*/
-#gallery-main {
-  margin: -10px;
-}
-#gallery-main h4 { /*Headers for each gallery*/
-  background-color: white;
-  border-bottom: 1px solid #e1e1e1;
-  border-left: 1px solid #e1e1e1;
-  border-right: 1px solid #e1e1e1;
-  bottom: .6em;
-  box-shadow: 0px 1px 4px 1px rgb(232, 232, 232);
-  color: #3b3b3b;
-  display: inline-block;
+h2 {
+  color: rgb(240, 240, 240);
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-size: 100px;
   letter-spacing: 1px;
-  padding-top: .5em;
-  position: relative;
-  text-align: center;
-  text-shadow: -1px 1px #e9e9e9;
-  width: 21em;
-  height: 2em;
+  height: auto;
+  margin-left: 10px;
+  padding: 10px;
+  text-shadow: -4px 3px rgb(220, 220, 220);
+  width: 100%;
 }
 
-#gallery-main article {
-  width: 22em;
-  height: auto;
+#my-works {
+  color: rgb(94, 94, 94);
+  text-shadow: -4px 3px rgb(0, 0, 0);
+}
+
+#my-story {
+  background-color: #777777;
+  width: 100%;
+}
+
+#my-story h2 {
+  color: rgb(159, 159, 159);
+  text-shadow: -4px 3px rgb(77, 77, 77);
+  font-size: 75px;
+  margin-bottom: .2em;
+}
+
+/*Gallery*/
+#gallery {
+  background-color: #1a1a1a;
+  width: 100vw;
   margin: 0 auto;
 }
 
-#gallery-main article:hover {
+.gallery img {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#gallery h4 { /*Headers for each gallery*/
+  background-color: #1a1a1a;
+  /* border-top: .5px solid rgb(235, 235, 235);
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black; */
+  bottom: .6em;
+  color: rgb(94, 94, 94);
+  text-shadow: -2px 1px rgb(0, 0, 0);
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#gallery article:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
 
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-bottom: 3em;
+}
+
+#websites {
+  background-color: rgb(52, 52, 52);
+}
+
+#websites h2 {
+  color: rgb(97, 97, 97);
+  text-shadow: -4px 3px rgb(36, 36, 36);
+}
+
+.site-card {
+  border: 1px solid rgb(34, 34, 34);
+  box-shadow: 0px 0px 10px 1px rgb(40, 40, 40);
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  hyphens: auto;
+  margin-top: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  overflow: scroll;
+  width: 30em;
+  height: 25em;
+  padding: 1em;
+  text-align: center;
+}
+
+.site-card h3 {
+  border-bottom: 1px solid #505050;
+  color: #d0d0d0;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px black;
+}
+
 .site-card:hover {
-  border: 1px solid #3b3b3b;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
 
 .site-card p {
-  color: #3b3b3b;
+  color: #d0d0d0;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 #contact-button {
@@ -119,3 +190,42 @@
   font-size: 24px;
   padding: 20px;
 }
+
+.gradient-container {
+  position: relative;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+  .gradient-container {
+    max-width: 100%;
+    top: 5em;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  .gradient-container {
+    max-width: 80%;
+    top: 4.5em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .gradient-container {
+    max-width: 70%;
+    top: 3.5em;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+  .gradient-container {
+    max-width: 60%;
+    top: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gradient-container {
+    max-width: 55%;
+    top: 1.5em;
+  }
+} 
+
+

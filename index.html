@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="public/styles/desktop.css">
     <link rel="stylesheet" href="public/styles/background-mobile.css">
     <link rel="stylesheet" href="public/styles/background-desktop.css">
-    <!-- <link rel="stylesheet" href="public/contact/contact.css"> -->
-    <!-- <link rel="stylesheet" href="public/styles/background-desktop.css"> -->
     <link rel="stylesheet" href="public/styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&amp;s=200">
   </head>
@@ -28,13 +26,13 @@
             <a href="https://www.linkedin.com/in/noah-alexander-ba59b0a2/" target="_blank" class="fa fa-linkedin"></a>
             <a href="https://github.com/noahmvf" target="_blank" class="fa fa-github"></a>
         </div>
-        <div class="nav-items-desktop-container">
-          <ul class="nav-items-desktop">
-              <li ><a href="/">Home</a></li>
-              <li ><a href="/designs">Designs</a></li>
-              <li ><a href="/websites">Websites</a></li>
-              <li ><a href="/about">My Story</a></li>
-              <li ><a href="mailto:noahmvf@gmail.com">Contact</a></li>
+        <div class="nav-list-desktop-container">
+          <ul class="nav-list-desktop">
+              <li ><a href="#homepage" class="home d-nav-item">Home</a></li>
+              <li ><a href="#gallery-main" class="designs d-nav-item ">Designs</a></li>
+              <li ><a href="#websites" class="websites d-nav-item">Websites</a></li>
+              <li ><a href="#my-story" class="myStory d-nav-item">About Me</a></li>
+              <li ><a href="mailto:noahmvf@gmail.com" class ="d-nav-item">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -50,7 +48,7 @@
           <li ><a href="#homepage">Home</a></li>
           <li ><a href="#gallery-main">Designs</a></li>
           <li ><a href="#websites">Websites</a></li>
-          <li ><a href="#my-story">My Story</a></li>
+          <li ><a href="#my-story">About Me</a></li>
           <li ><a href="mailto:noahmvf@gmail.com">Contact</a></li>
         </ul>
       </nav>
@@ -72,9 +70,10 @@
         </div>
       </article>
     </main>
-
-    <section id="gallery-main">
+<div class="content">
+    <section id="gallery">
       <h2 id="my-works">Designs</h2>
+      <div class="gallery-container">
       <article name="clientDesigns">
         <div id="clientDesigns" class="gallery animated-thumbs">
           <a href="assets/Client Designs/Gift Fuse (Upwork).jpg">
@@ -98,7 +97,7 @@
           <a href="assets/Client Designs/sabor.jpg">
             <img src="assets/Client Designs/sabor.jpg">
           </a>
-          <h4>Client Designs</h4>
+          <h4>client designs</h4>
         </div>
       </article>
 
@@ -119,7 +118,7 @@
             <a href="assets/Clothing Designs/SpaceShip.jpg">
               <img src="assets/Clothing Designs/SpaceShip.jpg">
             </a>
-            <h4>Clothing Designs</h4>
+            <h4>clothing designs</h4>
           </div>
       </article>
 
@@ -140,7 +139,7 @@
             <a href="assets/Clothing Designs/SpaceShip.jpg">
               <img src="assets/Clothing Designs/SpaceShip.jpg">
             </a>
-            <h4>Business Cards</h4>
+            <h4>business cards</h4>
           </div>
         </article>
 
@@ -161,17 +160,19 @@
               <a href="assets/Random Artwork/vacashin clothing.jpg">
                 <img src="assets/Random Artwork/vacashin clothing.jpg">
               </a>
-              <h4>Random Artwork</h4>
+              <h4>digital artwork</h4>
             </div>
         </article>
+      </div>
     </section>
     
     <section id="websites">
       <h2>Websites</h2>
+      <div class="cards-container">
       <div class="site-card">
         <a href="https://apfly-map-up.herokuapp.com/">
           <img src="assets/MapUp.png">
-          <!-- <h3>MapUp</h3> -->
+          <h3>MapUp</h3>
           <p> An app to enhance the search experience of the Meetup app by adding an interactive map to provide the user with a visual representation of the location of technology Meetups. It provides a map interface to find Meetups based on location.
 
           This app utilizes: Google Maps API, Geocode API, and Meetups API
@@ -183,17 +184,18 @@
       <div class="site-card">
           <a href="https://noahmvf.github.io/ResumeGenerator/generator.html">
             <img src="assets/Resume Hackers.png">
-            <!-- <h3>Resume Hackers</h3> -->
-            <p> Desktop app that allows you to create a personal, customized resume that is pre-formatted elegantly for the user. provides an interface to create a customized resume.
+            <h3>Resume Hackers</h3>
+            <p> Desktop app for creating a personally customized resume that is perfectly formatted. The user adds their information and the resume is pre-formatted using an elegant template. The resume dynamically updates as information is added to it. 
   
             Languages: JavaScript,jQuery, HTML, CSS
             </p>
           </a>
         </div>
+      </div>
     </section>
 
     <section id="my-story">
-      <h2>My Story</h2>
+      <h2>About Me</h2>
       <article>
         <div class="headshot-container">
           <img src="assets/headshot.jpg" id="headshot">
@@ -204,6 +206,7 @@
       </article>
     </section>
 
+    <section id="contact">
     <table id="contact-button">
         <tr>
             <td>
@@ -211,9 +214,11 @@
             </td>
         </tr>
     </table>
+  </div>
       <footer>
-        &copy; 2018 Noah Alexander | Site &amp; Design Portfolio |
+        &copy; 2018 Noah Alexander | Site &amp; Design Portfolio | Created using JavaScript, CSS, Adobe Photoshop &amp; Illustrator
       </footer>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
        <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->

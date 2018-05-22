@@ -10,14 +10,14 @@ $(function () {
   /*NAV BACKGROUND WHEN LOWER THAN...*/
   $(document).scroll(function() {
     let doc = $(this).scrollTop();
-    if (doc > 700) {
+    if (doc > 500) {
       $('#mobile-nav').css('background-color', 'white');
       makeNavBlack();
     }
-    if (doc < 700) {
+    if (doc < 500) {
       $('#mobile-nav').css('background-color', 'transparent');
     }
-    if (doc < 700 && $('#headline-container').hasClass('gradient')) {
+    if (doc < 500 && $('#headline-container').hasClass('gradient')) {
       $('#mobile-nav').css('background-color', 'transparent');
       makeNavWhite();
     }

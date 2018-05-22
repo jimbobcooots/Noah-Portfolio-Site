@@ -14,13 +14,6 @@
   }
 
 /*GRADIENT BACKGROUND WITH IMAGE DIV*/
-  .gradient-headline {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20%;
-  }
-
   .gradient {
   	width: 100vh;
   	color: white;
