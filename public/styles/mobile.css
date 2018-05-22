@@ -259,7 +259,7 @@
     bottom: 5em;
   }
 
-  #headshot {
+  .headshot {
     box-shadow: -5px 2px rgb(75, 75, 75);
     width: auto;
     height: 18em;
