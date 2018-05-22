@@ -1,0 +1,272 @@
+@media only screen and (max-width: 640px) {
+  #mobile-nav {
+    height: 50px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+.nav-items {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  list-style-type: cjk-ideographic;
+  padding-left: 2.5em;
+  width: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+.nav-items li {
+  background: transparent;
+  line-height: 2.3; 
+  }
+
+.nav-items li:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+#button-container {
+  background: none;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  text-align: center;
+  top: 80vh;
+  width: 9em;
+}
+
+#button-container button {
+  background: white;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding: .7em;
+  width: 11em;
+}
+
+#change-color {
+  border: 1px solid;
+  background: none;
+}
+
+.button-list {
+  background: transparent;
+  border: 1px solid;
+  height: 1.8em;
+  margin: auto;
+  padding-left: 10px;
+  /* -moz-appearance: none; remove glossy effect
+  -webkit-appearance: none;
+  appearance: none; */
+  width: 10em;
+}
+
+  #my-story {
+    background-color: #3b3b3b;
+    width: 100%;
+  }
+
+  #my-story .story {
+    overflow: auto;
+  }
+
+  #my-story p {
+    display: inline-block;
+    color: rgb(247, 247, 247);
+    font-size: 14px;
+    height: 16em;
+    hyphens: auto;
+    line-height: 1.6;
+    padding-right: .3em;
+    padding-left: 1em;
+    text-align: left;
+  }
+
+  .story p {
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px #3b3b3b;
+  }
+
+  .headshot-container {
+    padding-right: 1em;
+  }
+
+  #headshot {
+    box-shadow: -5px 2px rgb(75, 75, 75);
+    width: auto;
+    height: 14em;
+    float: right;
+    margin-left: 1em;
+  }
+
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-bottom: 3em;
+  }
+
+  #gallery article {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .gallery img {
+    margin-top: 2em;
+    width: 21em;
+    height: 14em;
+    display: block;
+  }
+
+  #contact-button {
+    position: relative;
+    top: 2em;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+  #mobile-nav {
+    height: 50px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+.nav-items {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  list-style-type: cjk-ideographic;
+  padding-left: 2.5em;
+  width: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+.nav-items li {
+  background: transparent;
+  line-height: 2.3; 
+  }
+
+.nav-items li:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+#button-container {
+  background: none;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  text-align: center;
+  top: 80vh;
+  width: 9em;
+}
+
+#button-container button {
+  background: white;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding: .7em;
+  width: 11em;
+}
+
+#change-color {
+  border: 1px solid;
+  background: none;
+}
+
+.button-list {
+  background: transparent;
+  border: 1px solid;
+  height: 1.8em;
+  margin: auto;
+  padding-left: 10px;
+  /* -moz-appearance: none; remove glossy effect
+  -webkit-appearance: none;
+  appearance: none; */
+  width: 10em;
+}
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-bottom: 3em;
+  }
+
+  #gallery article {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .gallery img {
+    margin-top: 2em;
+    width: 21em;
+    height: 14em;
+    display: block;
+  }
+
+  #my-story {
+    background-color: #3b3b3b;
+    width: 100%;
+  }
+  #my-story h2 {
+    clear: right;
+  }
+
+  #my-story .story {
+    overflow: auto;
+  }
+
+  #my-story p {
+    display: inline-block;
+    color: rgb(247, 247, 247);
+    font-size: 14px;
+    height: 16em;
+    hyphens: auto;
+    line-height: 1.6;
+    padding-right: .3em;
+    padding-left: 1em;
+    text-align: left;
+  }
+
+  .story p {
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px #3b3b3b;
+  }
+
+  .headshot-container {
+    padding-right: 1em;
+    position: relative;
+    bottom: 5em;
+  }
+
+  #headshot {
+    box-shadow: -5px 2px rgb(75, 75, 75);
+    width: auto;
+    height: 18em;
+    float: right;
+    margin-left: 1em;
+  }
+
+
+}
+
