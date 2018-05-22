@@ -3,10 +3,13 @@ section {
 }
 
 footer {
-  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1em;
+  width: 100%;
   font-size: 14px;
-  padding: .5em;
-  text-align: center;
+  padding: 10px;
 }
 
 .content {

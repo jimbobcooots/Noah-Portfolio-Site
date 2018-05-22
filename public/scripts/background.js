@@ -4,6 +4,7 @@ $(function () {
   $('.button-list').hide();
   $('#headline-container').addClass('animals');
   $('#mobile-nav> ul, li, a').addClass('blackFontBorder');
+  $('#main-nav> ul, li, a').addClass('blackFontBorder');
   $('#button-container').addClass('blackFontBorder');
   $('.gradient-headline').hide();
 
@@ -35,8 +36,8 @@ function makeNavWhite () {
 
 //open the background buttons
 $('#change-color').on('click', function () {
-  $('#change-color').fadeOut('slow');
-  $('.button-list').fadeIn('slow');
+  $('#change-color').hide();
+  $('.button-list').fadeIn();
 });
 
 $('.button-list').on('change', function () {
@@ -72,6 +73,8 @@ function makeWhite () {
   /*Nav Bar*/
   $('#mobile-nav > button, ul, li, a').removeClass('blackFontBorder');
   $('#mobile-nav > button, ul, li, a').addClass('whiteFontBorder');
+  $('#main-nav > button, ul, li, a').removeClass('blackFontBorder');
+  $('#main-nav > button, ul, li, a').addClass('whiteFontBorder');
   /*Background changing button*/
   $('#button-container').removeClass('blackFontBorder');
   $('#button-container').addClass('whiteFontBorder');

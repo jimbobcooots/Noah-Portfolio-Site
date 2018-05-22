@@ -70,11 +70,7 @@
 
   #my-story {
     background-color: #3b3b3b;
-    padding-bottom: 1em;
     width: 100%;
-  }
-  #my-story h2 {
-    clear: right;
   }
 
   #my-story .story {
@@ -132,6 +128,10 @@
     display: block;
   }
 
+  #contact-button {
+    position: relative;
+    top: 2em;
+  }
 }
 @media only screen and (min-width: 640px) and (max-width: 960px) {
   #mobile-nav {
@@ -226,7 +226,6 @@
 
   #my-story {
     background-color: #3b3b3b;
-    padding-bottom: 1em;
     width: 100%;
   }
   #my-story h2 {
@@ -268,8 +267,6 @@
     margin-left: 1em;
   }
 
-  .button {
-    margin-left: 10px;
-  }
+
 }
 

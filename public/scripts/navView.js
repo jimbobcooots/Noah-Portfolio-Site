@@ -10,3 +10,18 @@ $(document).ready(function () {
     $('.nav-items').hide();
   });
 });
+
+
+$( window ).scroll( function() {
+  if ($(this).scrollTop() > 0 && $(window).width() > 960) {
+    $( '.back-to-top' ).addClass( 'show-back-to-top' );
+  } else {
+    $( '.back-to-top' ).removeClass( 'show-back-to-top' );
+  }
+});
+
+// Click event to scroll to top.
+$( '.back-to-top' ).click( function() {
+  $( 'html, body' ).animate( { scrollTop : 0 }, 0 );
+  return false;
+});
