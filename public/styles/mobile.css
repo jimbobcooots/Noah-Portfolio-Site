@@ -2,6 +2,7 @@
   h2 {
     font-size: 300%;
   }
+
   footer {
     text-align: center;
     font-size: 12px;
@@ -79,9 +80,6 @@
 #my-story {
   background-color: #3b3b3b;
   width: 100%;
-}
-#my-story h2 {
-  clear: right;
 }
 
 #my-story .story {
