@@ -2,6 +2,10 @@
   #mobile-nav {
     display: none;
   }
+  
+  h2 {
+    font-size: 600%;
+  }
 
   .nav-list-desktop-container {
     width: 100%;
