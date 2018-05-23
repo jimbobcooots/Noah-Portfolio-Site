@@ -1,6 +1,6 @@
 @media only screen and (max-width: 640px) {
   h2 {
-    font-size: 3px;
+    font-size: 300%;
   }
   footer {
     text-align: center;
