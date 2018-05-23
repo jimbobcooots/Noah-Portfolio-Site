@@ -25,3 +25,11 @@ $( '.back-to-top' ).click( function() {
   $( 'html, body' ).animate( { scrollTop : 0 }, 0 );
   return false;
 });
+
+//Second pic in About Me
+if ($(document).width() > 1200) {
+  $('#second-pic').css('display', 'block');
+} 
+if ($(document).width() < 1200) {
+  $('#second-pic').css('display', 'none');
+}
