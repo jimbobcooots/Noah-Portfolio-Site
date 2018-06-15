@@ -1,10 +1,11 @@
-/*Mobile Background Settings*/
+/*Desktop Background Settings*/
 @media only screen and (min-width: 640px) {
   #headline-container {
     background-repeat: no-repeat;
     background-attachment: local;
     background-position-x: center;
     min-height: 100vh;
+    min-width: 100vw;
   }
 
   .animals {
