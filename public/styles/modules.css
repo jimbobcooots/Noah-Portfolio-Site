@@ -117,7 +117,7 @@ h2 {
 .cards-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   flex-flow: wrap;
   padding-bottom: 3em;
 }
@@ -142,10 +142,9 @@ h2 {
   margin-left: 1.5em;
   margin-right: 1.5em;
   overflow: scroll;
-  width: 30em;
-  height: 25em;
+  width: 28em;
+  height: 23em;
   padding: 1em;
-  text-align: center;
 }
 
 .site-card h3 {
@@ -248,7 +247,7 @@ h2 {
 	height: 45px;
 	width: 45px;
 	color: #262728;
-	opacity: 0.75;
+	opacity: 0.8;
 	padding: 3px 5px;
 	font-size: 12px;
 	font-weight: bold;
@@ -263,7 +262,7 @@ h2 {
 	text-decoration: none;
 	text-transform: uppercase;
 	transform: rotate(-45deg);
-	background: rgb(242, 242, 242);
+	background: rgb(255, 255, 255);
 }
 
 .back-to-top::after {
