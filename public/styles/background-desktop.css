@@ -1,8 +1,7 @@
 /*Desktop Background Settings*/
 @media only screen and (min-width: 640px) {
   #headline-container {
-    background-repeat: no-repeat;
-    background-attachment: local;
+    background-size: 100%;
     background-position-x: center;
     min-height: 100vh;
     min-width: 100vw;
